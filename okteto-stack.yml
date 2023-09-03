@@ -1,0 +1,9 @@
+services:
+  drone-vc-p:
+    build: .
+    environment:
+      API_TELEGRAM: $API_TELEGRAM  
+      API_KEY: $API_KEY  
+    resources:
+      cpu: 1000m
+      memory: 3Gi
